@@ -30,7 +30,7 @@ UNUSED(precision);
 num_addrs = (unsigned long)addrs;
 while (num_addrs > 0)
 {
-buffer[ind--] = map_to[num_addrs % 16]
+buffer[ind--] = map_to[num_addrs % 16];
 num_addrs /= 16;
 length++;
 }
@@ -169,5 +169,5 @@ write(1, &x, 1);
 count++;
 }
 }
-return (count);
-}
+(return (count));
+(})
