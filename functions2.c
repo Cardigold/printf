@@ -169,5 +169,7 @@ write(1, &x, 1);
 count++;
 }
 }
+
 (return (count));
+
 (})
